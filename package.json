@@ -1,0 +1,26 @@
+{
+  "name": "r-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js",
+    "server": "nodemon ./server/server.js"
+  },
+  "keywords": [
+    "social",
+    "network",
+    "mern"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
